@@ -2,7 +2,21 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    margin: 5px;
+    padding: 5px;
+}
+
 #container {
+    align-self: center;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     width: 800px;
