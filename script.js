@@ -13,6 +13,8 @@ for (let i = 0; i < totalDivs; i++) {
     })
 
     div.addEventListener("mouseout", (box) => {
-        div.style.backgroundColor = "transparent";
+        setTimeout(() => {
+            div.style.backgroundColor = "transparent";
+        }, 2_000);
     })
 }
