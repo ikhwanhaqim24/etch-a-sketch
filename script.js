@@ -18,3 +18,15 @@ for (let i = 0; i < totalDivs; i++) {
         }, 2_000);
     })
 }
+
+const buttonFunction = () => {
+    let data = parseInt(prompt("Put grid"));
+
+    if (isNaN(data) || null) return;
+
+    if (data <= 0) data = 1;
+    if (data > 100) data = 100;
+
+    // deletes the child
+    container.innerHTML = "";
+}
